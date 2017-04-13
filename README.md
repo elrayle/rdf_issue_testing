@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Testing of issues with rdf/rdf.
 
-Things you may want to cover:
+## Current issues:
 
-* Ruby version
+### [Issue #353](https://github.com/ruby-rdf/rdf/issues/353) - Attempts to read rdf file using wrong reader
 
-* System dependencies
+To run test:
 
-* Configuration
+```
+$ rails c
+require 'issue353'
+Issue353.test
+```
 
-* Database creation
+Break points are suggested in the file along with results I saw during testing.
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
